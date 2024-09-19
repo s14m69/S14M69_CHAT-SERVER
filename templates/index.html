@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S14M_69 CHAT SERVER</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1f2937; /* Dark background */
+            color: #f9fafb; /* Light text */
+            font-family: 'Courier New', monospace; /* Monospace font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+        .container {
+            background-color: #374151; /* Darker card background */
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Fixed width */
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #4b5563; /* Darker border */
+            border-radius: 0.5rem;
+            background-color: #1f2937; /* Dark background for inputs */
+            color: #f9fafb; /* Light text */
+        }
+        button {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #3b82f6; /* Bright blue */
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2563eb; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>S14M_69 CHAT SERVER</h1>
+        <form action="/create_room" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="text" name="room_name" placeholder="Room Name" required>
+            <button type="submit">Join Room</button>
+        </form>
+    </div>
+</body>
+</html>
