@@ -22,4 +22,5 @@ A real-time chat application built with Flask and Flask-SocketIO that allows use
 
    ```bash
    git clone https://github.com/yourusername/flask-chat-app.git
-   cd flask-chat-app
+   cd S14M69_CHAT-SERVER
+
