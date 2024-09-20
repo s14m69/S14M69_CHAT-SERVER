@@ -23,7 +23,7 @@ A real-time chat application built with **Flask** and **Flask-SocketIO**. This a
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/flask-chat-app.git
+git clone https://github.com/s14m69/S14M69_CHAT-SERVER.git
 cd S14M69_CHAT-SERVER
 pip install Flask Flask-SocketIO
 mkdir uploads
